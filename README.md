@@ -1,5 +1,15 @@
 # HorizonSO: Desbravando o Horizonte dos Sistemas Operacionais
 
+Ferramentas Utilizadas:
+
+-O sistema é projetado para ser executado a partir de um pendrive ou diskette, podendo ser utilizado em máquinas reais ou virtuais.
+As principais ferramentas incluem o NASM para manipulação em Assembly, o Fergo Raw para criação de arquivos de imagem e o Rufus 3.9 para preparação do pendrive ou diskette.
+# Links para as ferramentas:
+-NASM: https://www.nasm.us/pub/nasm/releasebuilds/2.14.03rc2/win64/
+-Fergo Raw: https://www.fergonez.net/softwares/fraw
+-Rufus: https://rufus.ie/downloads/
+Além disso, será utilizado o editor Notepad++ para facilitar o desenvolvimento.
+
 Em um desafio acadêmico instigante, nasceu o HorizonSO. Este projeto, forjado nos corredores da faculdade, visa criar um Sistema Operacional Básico, utilizando a linguagem Assembly. Munidos da matéria de Sistemas Operacionais e uma playlist de vídeos instrutivos, embarcamos em uma jornada rumo ao desconhecido, alimentados por curiosidade e determinação.
 
 Contudo, como toda grande aventura, nossos primeiros passos foram marcados por obstáculos. O encontro com erros como o famigerado MSCOMCTL.OCX nos fez enfrentar desafios iniciais. Porém, não nos intimidamos. Com resiliência e uma busca incansável por soluções, encontra-se a luz no fim do túnel. Graças a um comando simples, mas crucial, executado com a bomba de administradores, logramos superar tais adversidades:
