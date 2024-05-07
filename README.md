@@ -35,6 +35,16 @@ Na segunda aula, enfrentamos problemas adicionais ao tentar abrir o arquivo extr
 
 Na terceira aula, avançamos na instalação do Rufus 2.18 e da VirtualBox 5.2.44. Aprendemos a configurar a VirtualBox para reconhecer nosso pendrive, usando comandos no prompt de comando. Criamos uma máquina virtual, escrevemos um código inicial em assembly usando o Notepad++, e utilizamos o FergoRaw para criar uma imagem de sistema. Em seguida, usamos o Rufus para criar um disco inicializável no pendrive. Por fim, executamos a máquina virtual no Oracle VM VirtualBox e vimos os resultados na tela.
 
+## Utilizando o Fergo Raw
+
+Para colocar os arquivos nos setores especificados utilizando o Fergo Raw, siga estas instruções:
+
+1. Abra o Fergo Raw.
+2. Carregue o arquivo de imagem que deseja modificar.
+3. Para colocar o arquivo `bootloader.bin` no setor 1, navegue até a aba "Setores" e selecione o setor desejado. Em seguida, clique em "Escrever Arquivo" e selecione o arquivo `bootloader.bin`.
+4. Repita o processo para os arquivos `kernel.bin` e `window`, colocando-os nos setores 2 e 4, respectivamente.
+5. Após colocar todos os arquivos nos setores corretos, salve a imagem resultante.
+
 ## Conclusão
 
 O HorizonSO não é apenas um projeto; é uma jornada de descobertas, aprendizado e superação. Nele, encontramos não apenas desafios técnicos, mas também o valor da persistência e colaboração. Rumo ao horizonte dos sistemas operacionais, marchamos, certos e confiantes, prontos para enfrentar o que quer que o futuro nos reserve.
