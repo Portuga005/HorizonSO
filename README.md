@@ -44,6 +44,7 @@ Para colocar os arquivos nos setores especificados utilizando o Fergo Raw, siga 
 3. Para colocar o arquivo `bootloader.bin` no setor 1, navegue até a aba "Setores" e selecione o setor desejado. Em seguida, clique em "Escrever Arquivo" e selecione o arquivo `bootloader.bin`.
 4. Repita o processo para os arquivos `kernel.bin` e `window`, colocando-os nos setores 2 e 4, respectivamente.
 5. Após colocar todos os arquivos nos setores corretos, salve a imagem resultante.
+    ![Descrição da imagem](file:///C:/Users/Portuga/Pictures/Captura%20de%20tela%202024-05-07%20114033.png)
 
 ## Conclusão
 
