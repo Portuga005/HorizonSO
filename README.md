@@ -19,15 +19,21 @@ O projeto é desenvolvido com uma combinação cuidadosa de ferramentas essencia
 
 - **Notepad++:** Para facilitar o desenvolvimento, o editor Notepad++ é recomendado.
 
-## Desafios e Soluções
+## Desenvolvimento
 
-A jornada do HorizonSO não foi isenta de desafios. Desde os primeiros passos, nos deparamos com obstáculos que testaram nossa resiliência e determinação. Encontros com erros como o MSCOMCTL.OCX e COMDLG32.OCX destacaram a importância da persistência e da busca incansável por soluções.
+### 1º Dia de Desenvolvimento
 
-Por meio de uma série de comandos e soluções criativas, como o registro de bibliotecas OCX, superamos esses obstáculos e avançamos em direção ao nosso objetivo.
+Inicialmente, seguimos os passos para preparar nosso ambiente de desenvolvimento. Baixamos e instalamos o Nasm, o Fergo Raw e o Rufus 3.9. Após a instalação do Nasm, tentamos abrir o arquivo extraído do Fergo Raw, mas nos deparamos com um problema relacionado ao componente "MSCOMCTL.OCX". Embora tenhamos tentado resolver esse problema usando uma máquina virtual, os autores do repositório ainda não encontraram uma solução definitiva. Continuaremos buscando uma solução para isso no futuro.
 
-## Recomendações
+Após lidar com esse contratempo, avançamos para a configuração das variáveis de ambiente. Adicionamos o diretório do Nasm às variáveis de sistema para que ele possa ser acessado de qualquer lugar no computador. Feito isso, organizamos os arquivos do nosso sistema operacional em uma pasta chamada "OSFiles", que contém subpastas para o Fergo Raw e o Rufus, cada uma com suas respectivas ferramentas.
 
-Recomendamos o uso de uma máquina virtual como ambiente seguro para experimentações, juntamente com ferramentas como VirtualBox e NASM. Este ambiente oferece uma plataforma estável para o desenvolvimento e testes do HorizonSO.
+Em seguida, abrimos o Notepad++ para criar um arquivo de lote (BAT) e seguir as instruções do vídeo. Finalmente, aprendemos como montar arquivos .ASM usando o Nasm.
+
+### 2º Dia de Desenvolvimento
+
+Na segunda aula, enfrentamos problemas adicionais ao tentar abrir o arquivo extraído do Fergo Raw. Felizmente, um colega de turma compartilhou uma solução conosco. Primeiro, resolvemos o erro inicial relacionado ao "MSCOMCTL.OCX" instalando uma biblioteca e ativando um "Controle ActiveX". Esses passos foram detalhados em tutoriais disponíveis online. Após isso, encontramos outro erro referente ao componente "COMDLG32.OCX", que também foi resolvido seguindo instruções semelhantes.
+
+Na terceira aula, avançamos na instalação do Rufus 2.18 e da VirtualBox 5.2.44. Aprendemos a configurar a VirtualBox para reconhecer nosso pendrive, usando comandos no prompt de comando. Criamos uma máquina virtual, escrevemos um código inicial em assembly usando o Notepad++, e utilizamos o FergoRaw para criar uma imagem de sistema. Em seguida, usamos o Rufus para criar um disco inicializável no pendrive. Por fim, executamos a máquina virtual no Oracle VM VirtualBox e vimos os resultados na tela.
 
 ## Conclusão
 
