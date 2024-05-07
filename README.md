@@ -8,7 +8,7 @@ As principais ferramentas incluem o NASM para manipulação em Assembly, o Fergo
 # Links para as ferramentas:
 
 NASM: https://www.nasm.us/pub/nasm/releasebuilds/2.14.03rc2/win64/
-Fergo Raw: https://www.fergonez.net/softwares/fraw
+<br>Fergo Raw: https://www.fergonez.net/softwares/fraw <br/>
 Rufus: https://rufus.ie/downloads/
 Além disso, será utilizado o editor Notepad++ para facilitar o desenvolvimento.
 
