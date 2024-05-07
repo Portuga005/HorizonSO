@@ -1,40 +1,15 @@
-#### _Read this in other languages_
+#HorizonSO: Desbravando o Horizonte dos Sistemas Operacionais
 
-<kbd>[<img title="English" alt="English" src="https://i.imgur.com/K0sBZSD.png" width="22">](README.md)</kbd>
-<kbd>[<img title="Portuguese" alt="Brazillian portuguese" src="https://i.imgur.com/MZMUUJ6.png" width="22">](translations/README-PTBR.md)</kbd>
+Em um desafio acadêmico instigante, nasceu o HorizonSO. Este projeto, forjado nos corredores da faculdade, visa criar um Sistema Operacional Básico, utilizando a linguagem Assembly. Munidos da matéria de Sistemas Operacionais e uma playlist de vídeos instrutivos, embarcamos em uma jornada rumo ao desconhecido, alimentados por curiosidade e determinação.
 
-<p align="center">
-  <img src="https://i.imgur.com/xnhjM7o.gif" alt="OS" />
-</p>
+Contudo, como toda grande aventura, nossos primeiros passos foram marcados por obstáculos. O encontro com erros como o famigerado MSCOMCTL.OCX nos fez enfrentar desafios iniciais. Porém, não nos intimidamos. Com resiliência e uma busca incansável por soluções, encontra-se a luz no fim do túnel. Graças a um comando simples, mas crucial, executado com a bomba de administradores, logramos superar tais adversidades:
 
-_TripOS is a basic operating system developed using assembly language for the Operating Systems course. Its development was made possible thanks to the [KiddieOS Tutorial](https://www.youtube.com/watch?v=Jws7BHrts6g&list=PLsoiO2Be-2z8BfsSkspJfDiuKeC9-LSca&index=2) channel._
+cd C:\Windows\SysWOW64 regsvr32 mscomctl.ocx
 
-## OS Execution
+E quando o COMDLG32.OCX estava próximo do seu rosto, pronto para encará-lo de frente. Mais um desafio, mais uma vitória: regsvr32 C:\Windows\SysWOW64\comdlg32.ocx
 
-To execute tripOS you need this:
-- NASM to convert `.asm` to `.bin`
-- FergoRaw to manipulate binary files into `.img`
-- Rufus or other iso builder to convert `.img` to `.iso` 
-<br>
+Porém, aprender uma lição valiosa: a importância de se contar com uma boa companhia. Recomendamos o uso de uma máquina virtual como refúgio seguro para nossas experimentações. Com ferramentas como VirtualBox e NASM em mãos, trilhamos o caminho rumo à concretização de nosso projeto.
 
-`/Assembler.bat/` use nasm for file conversion;
-`/binary/` nasm converted files;
-`/Hardware/` assembly libraries.
-<details>
-<summary>Need some help?</summary>
-<tr>
-  <td><a href="https://www.nasm.us/index.php"><img alt="NASM" src="https://www.nasm.us/images/nasm.png" width="25"></a></td>
-  <td><a href="https://rufus.ie/pt_BR/"><img alt="Rufus" src="https://rufus.ie/pics/rufus-128.png" width="25"></a></td>
-  <td><a href="https://www.fergonez.net/softwares/fraw"><img alt="Fergoraw" src="https://images.gofreedownload.net/hardware-floppy-34989.jpg" width="25"></a></td>
-</tr>
-</details>
-<div align="right">
-  <img src="https://i.imgur.com/9f0AnpO.gif" alt="window" width="150">
-</div>
+Seguindo os passos delineados nos vídeos da playlist selecionada com cuidado, compreendemos a necessidade de um pendrive como ponte entre o nosso sistema embrionário e a máquina virtual que o acolherá. A configuração detalhada da VM, um ritual meticuloso, complementa nosso processo de desenvolvimento.
 
-## Implementações atuais
-
-- Main Window <a><img alt="checked" src="https://cdn3.emoji.gg/emojis/4562_AlienPls.gif" width="12"></a>
-- Graphic Interface (border) <a><img alt="checked" src="https://cdn3.emoji.gg/emojis/4562_AlienPls.gif" width="12"></a>
-- Graphic Interface (borderless) <a><img alt="checked" src="https://cdn3.emoji.gg/emojis/4562_AlienPls.gif" width="12"></a>
-- Monitor/wmemory lib's <a><img alt="checked" src="https://cdn3.emoji.gg/emojis/4562_AlienPls.gif" width="12"></a>
+HorizonSO não é apenas um projeto, é uma jornada de descobertas, de aprendizado e superação. Nele, não encontramos apenas os desafios técnicos, mas também o valor da persistência e da colaboração. Rumo ao horizonte dos sistemas operacionais, marchamos, certos e confiantes, prontos para enfrentar o que quer que o futuro nos reserve.
