@@ -9,8 +9,8 @@ As principais ferramentas incluem o NASM para manipulação em Assembly, o Fergo
 
 NASM: https://www.nasm.us/pub/nasm/releasebuilds/2.14.03rc2/win64/
 <br> Fergo Raw: https://www.fergonez.net/softwares/fraw <br/>
-<br> Rufus: https://rufus.ie/downloads/ <br/>
-Além disso, será utilizado o editor Notepad++ para facilitar o desenvolvimento.
+Rufus: https://rufus.ie/downloads/ 
+<br>Além disso, será utilizado o editor Notepad++ para facilitar o desenvolvimento.<br/>
 
 Em um desafio acadêmico instigante, nasceu o HorizonSO. Este projeto, forjado nos corredores da faculdade, visa criar um Sistema Operacional Básico, utilizando a linguagem Assembly. Munidos da matéria de Sistemas Operacionais e uma playlist de vídeos instrutivos, embarcamos em uma jornada rumo ao desconhecido, alimentados por curiosidade e determinação.
 
