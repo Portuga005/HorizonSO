@@ -31,9 +31,11 @@ Em seguida, abrimos o Notepad++ para criar um arquivo de lote (BAT) e seguir as 
 
 ### 2º Dia de Desenvolvimento
 
-Na segunda aula, enfrentamos problemas adicionais ao tentar abrir o arquivo extraído do Fergo Raw. Felizmente, um colega de turma compartilhou uma solução conosco. Primeiro, resolvemos o erro inicial relacionado ao "MSCOMCTL.OCX" instalando uma biblioteca e ativando um "Controle ActiveX". Esses passos foram detalhados em tutoriais disponíveis online. Após isso, encontramos outro erro referente ao componente "COMDLG32.OCX", que também foi resolvido seguindo instruções semelhantes.
+Enfrentamos problemas adicionais ao tentar abrir o arquivo extraído do Fergo Raw. Felizmente, um colega de turma compartilhou uma solução conosco. Primeiro, resolvemos o erro inicial relacionado ao "MSCOMCTL.OCX" instalando uma biblioteca e ativando um "Controle ActiveX". Esses passos foram detalhados em tutoriais disponíveis online. Após isso, encontramos outro erro referente ao componente "COMDLG32.OCX", que também foi resolvido seguindo instruções semelhantes.
 
-Na terceira aula, avançamos na instalação do Rufus 2.18 e da VirtualBox 5.2.44. Aprendemos a configurar a VirtualBox para reconhecer nosso pendrive, usando comandos no prompt de comando. Criamos uma máquina virtual, escrevemos um código inicial em assembly usando o Notepad++, e utilizamos o FergoRaw para criar uma imagem de sistema. Em seguida, usamos o Rufus para criar um disco inicializável no pendrive. Por fim, executamos a máquina virtual no Oracle VM VirtualBox e vimos os resultados na tela.
+### 3º Dia de Desenvolvimento
+
+Avançamos na instalação do Rufus 2.18 e da VirtualBox 5.2.44. Aprendemos a configurar a VirtualBox para reconhecer nosso pendrive, usando comandos no prompt de comando. Criamos uma máquina virtual, escrevemos um código inicial em assembly usando o Notepad++, e utilizamos o FergoRaw para criar uma imagem de sistema. Em seguida, usamos o Rufus para criar um disco inicializável no pendrive. Por fim, executamos a máquina virtual no Oracle VM VirtualBox e vimos os resultados na tela.
 
 ## Utilizando o Fergo Raw
 
