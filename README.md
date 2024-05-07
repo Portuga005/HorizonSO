@@ -1,4 +1,4 @@
-#HorizonSO: Desbravando o Horizonte dos Sistemas Operacionais#
+# HorizonSO: Desbravando o Horizonte dos Sistemas Operacionais
 
 Em um desafio acadêmico instigante, nasceu o HorizonSO. Este projeto, forjado nos corredores da faculdade, visa criar um Sistema Operacional Básico, utilizando a linguagem Assembly. Munidos da matéria de Sistemas Operacionais e uma playlist de vídeos instrutivos, embarcamos em uma jornada rumo ao desconhecido, alimentados por curiosidade e determinação.
 
